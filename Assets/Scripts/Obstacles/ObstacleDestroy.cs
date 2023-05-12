@@ -1,25 +1,29 @@
 using UnityEngine;
 public class ObstacleDestroy : MonoBehaviour
 {
-    SpriteRenderer renderer;
-    EdgeCollider2D collider;
+    SpriteRenderer renderer1;
+    Collider2D collider1;
     private void Start()
     {
-        renderer = GetComponent<SpriteRenderer>();
-        collider = GetComponent<EdgeCollider2D>();
+        renderer1 = GetComponent<SpriteRenderer>();
+        collider1 = GetComponent<EdgeCollider2D>();
+        if(collider1 == null)
+        {
+            collider1 = GetComponent<BoxCollider2D>();
+        }
     }
 
     void Update()
     {
         if (transform.position.x < -16 || transform.position.x > 20)
         {
-            renderer.enabled = false;
-            collider.enabled = false;
+            renderer1.enabled = false;
+            collider1.enabled = false;
         }
         else
         {
-            renderer.enabled = true;
-            collider.enabled = true;
+            renderer1.enabled = true;
+            collider1.enabled = true;
         }
     }
 }

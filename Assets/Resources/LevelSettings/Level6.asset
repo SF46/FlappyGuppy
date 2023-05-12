@@ -25,3 +25,4 @@ MonoBehaviour:
   obstacleYposMax: 1.25
   backGroundPrefab: {fileID: 897923636396228110, guid: ed55781af45ff5245bf19cc0aa0dc7a1, type: 3}
   levelReward: 100
+  levelFinished: 0

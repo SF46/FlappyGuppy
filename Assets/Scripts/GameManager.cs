@@ -84,7 +84,7 @@ public class GameManager : MonoBehaviour
             CurrencyController.ChangeCoins(currentLevelSettings.levelReward);
             currentLevel++;
             PlayerPrefs.SetInt(MainMenuManager.REACHED_LEVEL_KEY, currentLevel);
-            currentLevelSettings = levelsettings[currentLevel];
+            currentLevelSettings = levelsettings[currentLevel-1];
             Debug.Log("Now this level is finished");
         }
         else
