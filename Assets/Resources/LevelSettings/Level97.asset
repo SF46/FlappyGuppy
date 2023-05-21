@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d685054c0d5c94085e1d4da788e424, type: 3}
+  m_Name: Level97
+  m_EditorClassIdentifier: 
+  bypassObstaclePrefab:
+  - {fileID: 6353828214990704277, guid: 4974f87aa4166e74183aad125b2c54f2, type: 3}
+  bombObstaclePrefab:
+  - {fileID: 4855213809727884164, guid: da4ac25bda613a14bae6384a5e44acb4, type: 3}
+  numBypassObstacles: 160
+  numBombObstacles: 4
+  minDistance: 1.8
+  maxDistance: 1.8
+  minBypassObstacles: 20
+  maxBypassObstacles: 40
+  obstacleYposMin: -1
+  obstacleYposMax: 1
+  backGroundPrefab: {fileID: 897923636396228110, guid: ed55781af45ff5245bf19cc0aa0dc7a1, type: 3}
+  levelReward: 100

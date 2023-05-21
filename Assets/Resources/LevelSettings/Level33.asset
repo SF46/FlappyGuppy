@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d685054c0d5c94085e1d4da788e424, type: 3}
+  m_Name: Level33
+  m_EditorClassIdentifier: 
+  bypassObstaclePrefab:
+  - {fileID: 489377982308505196, guid: 24a0c039caa54834b8dc766cbe421c03, type: 3}
+  - {fileID: 2533694432324118703, guid: de735935a0a58f443898332e87f389ba, type: 3}
+  - {fileID: 1713158444909036657, guid: d1ae8a0b99c9c8f4e850f8a16da296f0, type: 3}
+  - {fileID: 7218821613991177505, guid: 3b7d09977f7d3a5479b875f8a71eca49, type: 3}
+  - {fileID: 1874216138888761911, guid: 067f40d375025c34b870d969d8009497, type: 3}
+  bombObstaclePrefab: []
+  numBypassObstacles: 50
+  numBombObstacles: 0
+  minDistance: 7
+  maxDistance: 8
+  minBypassObstacles: 10
+  maxBypassObstacles: 12
+  obstacleYposMin: -1.25
+  obstacleYposMax: 1.25
+  backGroundPrefab: {fileID: 897923636396228110, guid: ed55781af45ff5245bf19cc0aa0dc7a1, type: 3}
+  levelReward: 100

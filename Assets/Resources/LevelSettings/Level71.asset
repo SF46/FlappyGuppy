@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d685054c0d5c94085e1d4da788e424, type: 3}
+  m_Name: Level71
+  m_EditorClassIdentifier: 
+  bypassObstaclePrefab:
+  - {fileID: 8426858656447547417, guid: 03bd1eaea8ed0ba44951f379f44f2ff7, type: 3}
+  - {fileID: 6987279029157822866, guid: 607034b71f917a846b2de37df1b05866, type: 3}
+  - {fileID: 6353828214990704277, guid: 4974f87aa4166e74183aad125b2c54f2, type: 3}
+  - {fileID: 5501151834055824794, guid: abc03f12d2dc56248ab0bcd9e4d11d8e, type: 3}
+  bombObstaclePrefab:
+  - {fileID: 7977739240176923614, guid: af07d94affbe21e4a9bd4d595a09ddea, type: 3}
+  - {fileID: 4855213809727884164, guid: da4ac25bda613a14bae6384a5e44acb4, type: 3}
+  - {fileID: 1938507222407133644, guid: 3964b28414b9b914f89e7aab7bab4ffa, type: 3}
+  numBypassObstacles: 36
+  numBombObstacles: 6
+  minDistance: 6
+  maxDistance: 6
+  minBypassObstacles: 6
+  maxBypassObstacles: 6
+  obstacleYposMin: -2
+  obstacleYposMax: 2
+  backGroundPrefab: {fileID: 897923636396228110, guid: ed55781af45ff5245bf19cc0aa0dc7a1, type: 3}
+  levelReward: 100

@@ -1,0 +1,4 @@
+repository "Fishety@testOrganizatione@cloud"
+  path "/"
+    br "/main"
+    co "/main"

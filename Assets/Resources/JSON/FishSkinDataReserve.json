@@ -1,0 +1,95 @@
+{
+  "FishSkins": [
+    {
+      "ID": 0,
+      "PriceType" : "Coin",
+      "Color" : "#FFC312",
+      "Purchased": true,
+      "Cost": 0
+    },
+    {
+      "ID": 1,
+      "PriceType" : "Coin",
+      "Color" : "#EA2027",
+      "Purchased": false,
+      "Cost": 50
+    },
+    {
+      "ID": 2,
+      "PriceType" : "Coin",
+      "Color" : "#C4E538",
+      "Purchased": false,
+      "Cost": 100
+    },
+    {
+      "ID": 3,
+      "PriceType" : "Coin",
+      "Color" : "#009432",
+      "Purchased": false,
+      "Cost": 250
+    },
+    {
+      "ID": 4,
+      "PriceType" : "Coin",
+      "Color" : "#006266",
+      "Purchased": false,
+      "Cost": 500
+    },
+    {
+      "ID": 5,
+      "PriceType" : "Coin",
+      "Color" : "#EE5A24",
+      "Purchased": false,
+      "Cost": 900
+    },
+    {
+      "ID": 6,
+      "PriceType" : "Coin",
+      "Color" : "#12CBC4",
+      "Purchased": false,
+      "Cost": 1500
+    },
+    {
+      "ID": 7,
+      "PriceType" : "Coin",
+      "Color" : "#0652DD",
+      "Purchased": false,
+      "Cost": 3000
+    },
+    {
+      "ID": 8,
+      "PriceType" : "Coin",
+      "Color" : "#6F1E51",
+      "Purchased": false,
+      "Cost": 5000
+    },
+    {
+      "ID": 9,
+      "PriceType" : "Diamond",
+      "Color" : "#D980FA",
+      "Purchased": false,
+      "Cost": 15
+    },
+    {
+      "ID": 10,
+      "PriceType" : "Diamond",
+      "Color" : "#ffdd59",
+      "Purchased": false,
+      "Cost": 35
+    },
+    {
+      "ID": 11,
+      "PriceType" : "Diamond",
+      "Color" : "#d2dae2",
+      "Purchased": false,
+      "Cost": 80
+    },
+    {
+      "ID": 12,
+      "PriceType" : "Diamond",
+      "Color" : "#1e272e",
+      "Purchased": false,
+      "Cost": 200
+    }
+  ]
+}
